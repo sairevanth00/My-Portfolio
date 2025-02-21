@@ -32,6 +32,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import shoping from "./shoping.png";
 import watchtube from "./watch-tube.png";
+import profile from "./profile.svg";
 
 
 export {
@@ -40,6 +41,7 @@ export {
   creator,
   mobile,
   web,
+  profile,
   github,
   menu,
   close,
