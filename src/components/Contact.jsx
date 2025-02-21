@@ -27,22 +27,28 @@ const Contact = () => {
     });
   };
 
+  // template_g3voivi
+  // service_8sj5wcq
+  // ASctlXzwUrB2W0W-8
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        'service_8sj5wcq',
+        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'template_g3voivi',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Sai Revanth",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "sairevanth7373@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'ASctlXzwUrB2W0W-8'
       )
       .then(
         () => {

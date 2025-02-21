@@ -18,10 +18,13 @@ import {
   meta,
   starbucks,
   tesla,
+  ashv,
   shopify,
   carrent,
   jobit,
   tripguide,
+  watchtube,
+  shoping,
   threejs,
 } from "../assets";
 
@@ -46,16 +49,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Front End Developer",
+    icon: creator,
+  },
+  {
+    title: "React JS Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Angular Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -116,57 +119,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Ashvfinance",
+    icon: ashv,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jul 2022 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Develops responsive, user-friendly web interfaces using modern frontend technologies like ReactJs, Angular, JavaScript, and CSS, ensuring seamless user experiences.",
+      "I collaborate with cross-functional teams to enhance and modify existing data processing display features and debug production issues.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Intern",
+    company_name: "Ashvfinance",
+    icon: ashv,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2021 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on various technologies like Angular, Micro Services, MDM, Typescript, JavaScript & Git.",
+      "Developed and implemented generic custom methods to optimise reusable code functionality, streamline development processes, and enhance maintainability."
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -198,30 +173,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Watch Tube",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " Implemented YouTube Clone App where users can log in and can see the videos that are created by others with search by video title name.",
     tags: [
       {
         name: "react",
@@ -236,20 +190,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: watchtube,
+    source_code_link: "https://github.com/sairevanth00/NxtWatch-1",
   },
   {
-    name: "Trip Guide",
+    name: "Nxt Trendz",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Implemented an e-commerce App where users can log in and can see a list of products with search by product title, filters based on rating range and product type, etc",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
@@ -257,9 +211,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: shoping,
+    source_code_link: "https://github.com/sairevanth00/ecommerceApp",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
